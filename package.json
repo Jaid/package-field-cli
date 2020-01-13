@@ -36,5 +36,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "package-field-cli",
-  "description": "CLI tools that prints the value of a specified field from package.json."
+  "description": "CLI tools that prints the value of a specified field from package.json.",
+  "funding": "https://github.com/sponsors/jaid"
 }
