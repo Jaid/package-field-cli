@@ -37,5 +37,9 @@
   },
   "name": "package-field-cli",
   "description": "CLI tools that prints the value of a specified field from package.json.",
-  "funding": "https://github.com/sponsors/jaid"
+  "funding": "https://github.com/sponsors/jaid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaid/package-field-cli"
+  }
 }
