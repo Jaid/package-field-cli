@@ -35,12 +35,25 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "package-field-cli",
-  "description": "CLI tools that prints the value of a specified field from package.json.",
+  "description": "CLI that prints the value of a specified field from package.json.",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/package-field-cli"
   },
   "homepage": "https://github.com/Jaid/package-field-cli",
-  "keywords": []
+  "keywords": [
+    "cli",
+    "field",
+    "node",
+    "node-js",
+    "nodejs",
+    "npm",
+    "package",
+    "package-json",
+    "pkg",
+    "print",
+    "util",
+    "utility"
+  ]
 }
