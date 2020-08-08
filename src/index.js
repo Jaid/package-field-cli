@@ -1,8 +1,7 @@
-import path from "path"
-
-import yargs from "yargs"
 import fsp from "@absolunet/fsp"
 import {isObjectLike} from "lodash"
+import path from "path"
+import yargs from "yargs"
 
 const getPackageField = async (cwd, field) => {
   const packageJsonFile = path.join(cwd, "package.json")
