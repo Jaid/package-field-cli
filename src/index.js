@@ -27,10 +27,10 @@ const job = async ({cwd, field}) => {
   process.stdout.write(String(value))
 }
 
-const builder = {
+const builder = () => ({
   cwd: {
     default: process.cwd(),
     type: "string",
   },
-}
+})
 yargs.command("$0 <field>", "Returns the value of a package field", builder, job).argv
