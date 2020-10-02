@@ -13,7 +13,7 @@ const getPackageField = async (cwd, field) => {
       if (Array.isArray(value)) {
         return value.join("\n")
       }
-      if (value |> isObjectLike) {
+      if (isObjectLike(value)) {
         return Object.keys(value).join("\n")
       }
       return value

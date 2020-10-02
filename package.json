@@ -33,7 +33,8 @@
     "test:coverage": "npm run test:dev -- --coverage --json --outputFile=dist/jest/stats.json",
     "test:dev": "npm run build:dev && NODE_ENV=test MAIN=dist/package/development/cli.js jest --runInBand",
     "test:debug": "DEBUG=\"$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
-    "prepareActionJest": "npm run build:prod"
+    "prepareActionJest": "npm run build:prod",
+    "start": "npm run build:dev && NODE_ENV=development node dist/package/development/cli.js"
   },
   "name": "package-field-cli",
   "description": "CLI that prints the value of a specified field from package.json.",
