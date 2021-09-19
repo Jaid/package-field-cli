@@ -57,5 +57,6 @@
     "print",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
