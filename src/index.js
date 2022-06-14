@@ -1,7 +1,7 @@
 import path from "node:path"
 
 import fsp from "@absolunet/fsp"
-import {isObjectLike} from "lodash"
+import {isObjectLike} from "lodash-es"
 import yargs from "yargs"
 
 const getPackageField = async (cwd, field) => {

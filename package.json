@@ -4,7 +4,7 @@
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
     "@absolunet/fsp": "^1.7.0",
-    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
     "yargs": "^17.5.1"
   },
   "devDependencies": {
