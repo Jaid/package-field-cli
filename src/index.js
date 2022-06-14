@@ -1,14 +1,14 @@
 import path from "node:path"
 
-import fsp from "@absolunet/fsp"
+import fs from "fs-extra"
 import {isObjectLike} from "lodash-es"
 import yargs from "yargs"
 
 const getPackageField = async (cwd, field) => {
   const packageJsonFile = path.join(cwd, "package.json")
-  const packageJsonExists = await fsp.pathExists(packageJsonFile)
+  const packageJsonExists = await fs.pathExists(packageJsonFile)
   if (packageJsonExists) {
-    const pkg = await fsp.readJson(packageJsonFile)
+    const pkg = await fs.readJson(packageJsonFile)
     if (pkg?.[field]) {
       const value = pkg[field]
       if (Array.isArray(value)) {
