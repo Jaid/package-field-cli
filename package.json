@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@absolunet/fsp": "^1.7.0",
     "lodash-es": "^4.17.21",
     "yargs": "^17.5.1"
   },
